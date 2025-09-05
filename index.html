@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lukas Rymdspel – Support</title>
+  <meta name="description" content="Support page for the iOS game Lukas Rymdspel.">
+  <style>
+    :root { --bg:#0b1020; --fg:#e8ecf1; --muted:#9aa6b2; --card:#111934; --border:#1d2a52; --link:#9ecbff; }
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;margin:0;background:var(--bg);color:var(--fg)}
+    .wrap{max-width:900px;margin:0 auto;padding:32px}
+    header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-bottom:24px}
+    h1{margin:0 0 8px 0;font-size:28px}
+    nav a{color:var(--link);text-decoration:none;margin-left:16px}
+    nav a:hover{text-decoration:underline}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px;margin:16px 0}
+    h2{margin-top:0}
+    footer{margin-top:40px;font-size:14px;color:var(--muted)}
+    a{color:var(--link)}
+    .small{color:var(--muted);font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Lukas Rymdspel – Support</h1>
+        <div class="small">Arcade asteroid shooter for iPhone/iPad</div>
+      </div>
+      <nav>
+        <a href="./index.html">Support</a>
+        <a href="./privacy.html">Privacy Policy</a>
+      </nav>
+    </header>
+
+    <div class="card">
+      <h2>Support (English)</h2>
+      <p>If you have questions, feedback, or bug reports for <strong>Lukas Rymdspel</strong>, email us at
+        <a href="mailto:contact@protoriam.com">contact@protoriam.com</a>.
+      </p>
+      <p>When reporting an issue, please include your device model and iOS version (for example: “iPhone 14, iOS 17.5”).</p>
+    </div>
+
+    <div class="card">
+      <h2>Support (Svenska)</h2>
+      <p>Har du frågor, feedback eller vill rapportera ett fel för <strong>Lukas Rymdspel</strong>? Mejla oss på
+        <a href="mailto:contact@protoriam.com">contact@protoriam.com</a>.
+      </p>
+      <p>När du rapporterar ett problem, skriv gärna med din enhetsmodell och iOS-version (t.ex. “iPhone 14, iOS 17.5”).</p>
+    </div>
+
+    <footer>
+      © <span id="year"></span> Lukas Rymdspel. All rights reserved.
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
